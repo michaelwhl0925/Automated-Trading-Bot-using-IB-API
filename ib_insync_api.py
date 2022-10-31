@@ -1,4 +1,3 @@
-from pickle import FALSE
 from ib_insync import *
 import pandas as pd
 import numpy as np
@@ -89,6 +88,4 @@ if __name__ == "__main__":
                 if i == 13:
                     FLAG = False
                     break
-            
-    
-    print(ib.executions)
+         
